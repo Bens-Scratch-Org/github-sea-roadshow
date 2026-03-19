@@ -10,14 +10,20 @@ Join us as we explore how GitHub is transforming software development in the reg
 
 ---
 
-## Agenda
+## Agenda — 2-Hour Workshop
 
-1. **Introduction to GitHub** - Platform overview and capabilities
-2. **GitHub Copilot** - AI-powered development
-3. **GitHub Actions** - CI/CD automation
-4. **GitHub Advanced Security** - Securing your code
-5. **GitHub Codespaces** - Cloud development environments
-6. **Q&A** - Your questions answered
+| Time | Duration | Topic |
+|------|----------|-------|
+| 0:00 – 0:10 | 10 min | **Welcome & Introductions** — Icebreaker, speaker intros, and workshop objectives |
+| 0:10 – 0:25 | 15 min | **Introduction to GitHub** — Platform overview, key stats, and the GitHub ecosystem in Southeast Asia |
+| 0:25 – 0:45 | 20 min | **GitHub Copilot Deep Dive** — AI-powered development: demo of code completion, test generation, and multi-file editing |
+| 0:45 – 0:55 | 10 min | **Hands-On: Copilot** — Participants try Copilot in a guided coding exercise |
+| 0:55 – 1:05 | 10 min | ☕ **Break** |
+| 1:05 – 1:20 | 15 min | **GitHub Actions** — CI/CD automation: building pipelines, marketplace actions, and real-world workflows |
+| 1:20 – 1:35 | 15 min | **GitHub Advanced Security** — Code scanning, secret scanning, Dependabot, and supply chain security |
+| 1:35 – 1:45 | 10 min | **GitHub Codespaces** — Cloud development environments: setup, configuration, and live walkthrough |
+| 1:45 – 1:50 | 5 min | **Enterprise & Pricing Overview** — Plans, enterprise features, and getting started |
+| 1:50 – 2:00 | 10 min | **Q&A & Next Steps** — Open discussion, resources, and follow-up actions |
 
 ---
 
