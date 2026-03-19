@@ -1,0 +1,191 @@
+<h1 id="github-south-east-asia-roadshow">GitHub South East Asia
+Roadshow</h1>
+<hr />
+<h2 id="welcome">Welcome! 👋</h2>
+<h3 id="empowering-developers-across-southeast-asia">Empowering
+Developers Across Southeast Asia</h3>
+<p>Join us as we explore how GitHub is transforming software development
+in the region.</p>
+<hr />
+<h2 id="agenda">Agenda</h2>
+<ol type="1">
+<li><strong>Introduction to GitHub</strong> - Platform overview and
+capabilities</li>
+<li><strong>GitHub Copilot</strong> - AI-powered development</li>
+<li><strong>GitHub Actions</strong> - CI/CD automation</li>
+<li><strong>GitHub Advanced Security</strong> - Securing your code</li>
+<li><strong>GitHub Codespaces</strong> - Cloud development
+environments</li>
+<li><strong>Q&amp;A</strong> - Your questions answered</li>
+</ol>
+<hr />
+<h2 id="about-github">About GitHub</h2>
+<blockquote>
+<p>GitHub is the world’s leading AI-powered developer platform</p>
+</blockquote>
+<ul>
+<li><strong>100M+ developers</strong> worldwide</li>
+<li><strong>330M+ repositories</strong></li>
+<li><strong>90% of Fortune 100</strong> companies use GitHub</li>
+<li>Available in <strong>190+ countries</strong></li>
+</ul>
+<hr />
+<h2 id="github-in-southeast-asia">GitHub in Southeast Asia 🌏</h2>
+<h3 id="growing-developer-community">Growing Developer Community</h3>
+<ul>
+<li>Rapidly expanding developer ecosystem</li>
+<li>Strong adoption across enterprises and startups</li>
+<li>Supporting local innovation and digital transformation</li>
+<li>Growing open source contributions</li>
+</ul>
+<hr />
+<h2 id="github-copilot">GitHub Copilot ✨</h2>
+<h3 id="your-ai-pair-programmer">Your AI Pair Programmer</h3>
+<p><strong>What is GitHub Copilot?</strong> - AI-powered code
+suggestions - Works with all major IDEs - Supports dozens of programming
+languages - Learns from context and patterns</p>
+<p><strong>Key Benefits:</strong> - ⚡ Write code faster - 💡 Learn new
+languages and frameworks - 🔍 Discover best practices - 🚀 Boost
+productivity by up to 55%</p>
+<hr />
+<h2 id="github-copilot-demo">GitHub Copilot Demo</h2>
+<h3 id="see-it-in-action">See it in Action</h3>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Example: Copilot helping write a function</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> calculate_fibonacci(n):</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Copilot suggests the complete implementation</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> n <span class="op">&lt;=</span> <span class="dv">1</span>:</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> n</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> calculate_fibonacci(n<span class="op">-</span><span class="dv">1</span>) <span class="op">+</span> calculate_fibonacci(n<span class="op">-</span><span class="dv">2</span>)</span></code></pre></div>
+<p><strong>Live Demo:</strong> - Code completion - Function generation -
+Test creation - Documentation writing</p>
+<hr />
+<h2 id="github-actions">GitHub Actions 🚀</h2>
+<h3 id="automate-your-workflow">Automate Your Workflow</h3>
+<p><strong>CI/CD Made Simple:</strong> - Build, test, and deploy from
+GitHub - Pre-built actions marketplace - Matrix builds for multiple
+environments - Self-hosted or cloud runners</p>
+<p><strong>Popular Use Cases:</strong> - Automated testing - Deployment
+pipelines - Code quality checks - Security scanning</p>
+<hr />
+<h2 id="github-actions-example">GitHub Actions Example</h2>
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode yaml"><code class="sourceCode yaml"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">name</span><span class="kw">:</span><span class="at"> CI/CD Pipeline</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">on</span><span class="kw">:</span><span class="at"> </span><span class="kw">[</span><span class="at">push</span><span class="kw">,</span><span class="at"> pull_request</span><span class="kw">]</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="fu">jobs</span><span class="kw">:</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">build</span><span class="kw">:</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">runs-on</span><span class="kw">:</span><span class="at"> ubuntu-latest</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">steps</span><span class="kw">:</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> </span><span class="fu">uses</span><span class="kw">:</span><span class="at"> actions/checkout@v3</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> </span><span class="fu">name</span><span class="kw">:</span><span class="at"> Run tests</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="fu">run</span><span class="kw">:</span><span class="at"> npm test</span></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> </span><span class="fu">name</span><span class="kw">:</span><span class="at"> Deploy</span></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="fu">if</span><span class="kw">:</span><span class="at"> github.ref == &#39;refs/heads/main&#39;</span></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="fu">run</span><span class="kw">:</span><span class="at"> npm run deploy</span></span></code></pre></div>
+<hr />
+<h2 id="github-advanced-security">GitHub Advanced Security 🔒</h2>
+<h3 id="secure-your-software-supply-chain">Secure Your Software Supply
+Chain</h3>
+<p><strong>Comprehensive Security Features:</strong></p>
+<ol type="1">
+<li><strong>Code Scanning</strong> - Identify vulnerabilities in
+code</li>
+<li><strong>Secret Scanning</strong> - Prevent credential leaks</li>
+<li><strong>Dependabot</strong> - Automated dependency updates</li>
+<li><strong>Security Advisories</strong> - Private vulnerability
+reporting</li>
+</ol>
+<p><strong>Benefits:</strong> - Find issues before production -
+Automated security fixes - Compliance and audit trails</p>
+<hr />
+<h2 id="github-codespaces">GitHub Codespaces ☁️</h2>
+<h3 id="your-dev-environment-anywhere">Your Dev Environment,
+Anywhere</h3>
+<p><strong>What are Codespaces?</strong> - Cloud-based development
+environments - Pre-configured and ready in seconds - Full Visual Studio
+Code experience - Access from any device</p>
+<p><strong>Why Codespaces?</strong> - 🌐 Work from anywhere - ⚙️
+Consistent environments - 🚀 Instant onboarding - 💰 Flexible compute
+options</p>
+<hr />
+<h2 id="github-enterprise-features">GitHub Enterprise Features</h2>
+<h3 id="built-for-organizations">Built for Organizations</h3>
+<ul>
+<li><strong>Enterprise-grade security</strong> and compliance</li>
+<li><strong>Advanced auditing</strong> and reporting</li>
+<li><strong>SAML/SSO integration</strong> for authentication</li>
+<li><strong>Premium support</strong> and SLA</li>
+<li><strong>Advanced collaboration</strong> tools</li>
+<li><strong>Policy enforcement</strong> at scale</li>
+</ul>
+<hr />
+<h2 id="success-stories">Success Stories 🌟</h2>
+<h3 id="companies-thriving-with-github">Companies Thriving with
+GitHub</h3>
+<p><strong>Global Leaders:</strong> - Microsoft, Google, Amazon -
+Netflix, Spotify, Airbnb - Thousands of startups</p>
+<p><strong>Southeast Asia:</strong> - Growing adoption across fintech,
+e-commerce - Government digital transformation projects - Educational
+institutions</p>
+<hr />
+<h2 id="getting-started-with-github">Getting Started with GitHub</h2>
+<h3 id="your-journey-begins-here">Your Journey Begins Here</h3>
+<p><strong>For Individual Developers:</strong> 1. Create a free account
+at github.com 2. Try GitHub Copilot (free trial available) 3. Explore
+public repositories 4. Contribute to open source</p>
+<p><strong>For Teams &amp; Organizations:</strong> 1. Assess your needs
+2. Schedule a demo 3. Plan migration and onboarding 4. Training and
+enablement</p>
+<hr />
+<h2 id="pricing-plans">Pricing &amp; Plans</h2>
+<h3 id="flexible-options-for-every-team">Flexible Options for Every
+Team</h3>
+<p><strong>Free:</strong> - Unlimited public/private repos - GitHub
+Actions (2,000 min/month) - GitHub Codespaces (60 hours/month)</p>
+<p><strong>Team:</strong> $4/user/month - Advanced collaboration
+features - Protected branches - Code owners</p>
+<p><strong>Enterprise:</strong> Custom pricing - Advanced security -
+Premium support - Dedicated success team</p>
+<hr />
+<h2 id="resources-support">Resources &amp; Support</h2>
+<h3 id="learn-more">Learn More</h3>
+<p><strong>Documentation:</strong> - docs.github.com - skills.github.com
+(interactive learning)</p>
+<p><strong>Community:</strong> - GitHub Community Forum - GitHub
+Education - Local meetups and events</p>
+<p><strong>Contact:</strong> - Sales: github.com/enterprise/contact -
+Support: support.github.com</p>
+<hr />
+<h2 id="qa">Q&amp;A</h2>
+<h3 id="questions">Questions?</h3>
+<p><strong>We’re here to help!</strong></p>
+<ul>
+<li>Technical questions</li>
+<li>Pricing and licensing</li>
+<li>Migration support</li>
+<li>Best practices</li>
+</ul>
+<hr />
+<h2 id="thank-you">Thank You! 🎉</h2>
+<h3 id="lets-build-the-future-together">Let’s Build the Future
+Together</h3>
+<p><strong>Stay Connected:</strong> - Follow us: <span class="citation"
+data-cites="github">@github</span> - Join our community - Subscribe to
+updates - Attend future events</p>
+<p><strong>Contact Information:</strong> - Website: github.com - Email:
+[team contact] - Regional support available</p>
+<hr />
+<h2 id="next-steps">Next Steps</h2>
+<h3 id="continue-your-github-journey">Continue Your GitHub Journey</h3>
+<ol type="1">
+<li><strong>Schedule a follow-up</strong> - Dive deeper into specific
+features</li>
+<li><strong>Start a trial</strong> - Experience GitHub Enterprise</li>
+<li><strong>Join our community</strong> - Connect with other
+developers</li>
+<li><strong>Attend workshops</strong> - Hands-on training sessions</li>
+</ol>
+<p><strong>Thank you for joining the GitHub SEA Roadshow!</strong>
+🚀</p>
